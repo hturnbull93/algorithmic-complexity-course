@@ -1,5 +1,7 @@
 # Algorithmic Complexity
 
+[Source](https://github.com/makersacademy/course/tree/master/algorithmic_complexity)
+
 A short course covering time complexity, why it matters, and how can it help us think differently about our code to write programs that scale (and possibly impress interviewers).
 
 ## Kickoff
