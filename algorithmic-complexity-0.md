@@ -42,3 +42,36 @@ $y = x + 11$
 Where $y$ is the time to finish and $x$ is the number of eggs, which plots this graph, with time on the y axis and numebr of eggs on the x axis.
 
 ![Omelette time complexity graph](images/omelette-graph.png)
+
+The time to mix and cook eggs though is always 11 minutes, $y = 11$.
+
+![Omelettemix and cook time complexity graph](images/omelette-mix-graph.png)
+
+## Types of Curve
+
+A flat line is constant complexity in terms of big O notation is $O(1)$.
+
+A curve that gets flatter as it goes on is logarithmic, in big O notation this is $O(log_2 n)$, (Logrithm base 2 of $n$).
+
+If a line is straight but not flat, it is linear, which is $O(n)$.
+
+If the line gets steeper, this is quadratic, which is $O(n^2)$. It could also be cubic which is $O(n^3)$.
+
+Polynomial complexity is a general term for quadratic, cubic or higher.
+
+The worst case is an exponential $O(3^n)$. This is the opposite of the logarithmic essentially.
+
+![Algorithmic complexity curves](images/algorithmic-time-complexity-curves.png)
+
+## Practical
+
+Write a timing framework and time the following inbuilt functions:
+
+- last
+- reverse
+- shuffle
+- sort
+
+For arrays of lengths increasing up to 100,000.
+
+Plot the results and see which time complexity they are.
